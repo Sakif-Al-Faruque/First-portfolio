@@ -1,0 +1,141 @@
+/* fonts
+font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+/* colors
+#0A122A - oxford blue*
+#EDE6E3 - isabelline*
+#25283D - space cadet*
+#E63946 - imprerial red*
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #25283D;
+}
+
+/* banner start */
+.banner-section{
+    background-image: url("../images/banner-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+.banner-section .profile-brief{
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    top: 65%;
+    left: 0;
+}
+.banner-section .profile-brief .header-container{
+    background-color: #0A122A;
+    padding: 20px 0;
+    width: 100%;
+}
+.banner-section .profile-brief .header-container .profile-content{
+    color: #EDE6E3;
+}
+.banner-section .profile-brief .header-container .profile-content h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+}
+.banner-section .profile-brief .header-container .profile-content h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.banner-section .profile-brief .header-container .social-icon-bar .icon-size{
+    font-size: 1.5rem !important;
+}
+.banner-section .profile-brief .header-container .cus-profile-info-block{
+    padding-bottom: 50px;
+    color: #EDE6E3;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+/* banner end */
+
+/* main start */
+main{
+    padding-top: 300px;
+    width: 100%;
+    color: #EDE6E3;
+}
+.nav-pills .nav-link{
+    color: #E63946;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #EDE6E3;
+    background-color: #E63946;
+}
+.tab-content-manager{
+    background-color: rgba(237, 230, 227, 0.2);
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.content-header{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: 5px solid #E63946;
+}
+/* about start */
+#about h1{
+    padding-top: 10px;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+#about > h2{
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: #0A122A;
+}
+/* about end */
+
+/* contact start */
+#contact-me-form{
+    margin-top: 30px;
+}
+/* contact end */
+
+.carousel-control-next, .carousel-control-prev {
+    right: -70px !important;
+}
+.carousel-control-prev {
+    left: -70px;
+}
+/* main end */
+
+/* footer start */
+footer{
+    margin-top: 80px;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #0A122A;
+}
+footer p{
+    color: #EDE6E3;
+}
+/* footer end */
